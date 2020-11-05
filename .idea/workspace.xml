@@ -19,12 +19,10 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="f2da8368-5e49-457c-82b3-e4ab4519a30a" name="Default Changelist" comment="Klase Korpa i Supermarket dodane">
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/ArtiklTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
+    <list default="true" id="f2da8368-5e49-457c-82b3-e4ab4519a30a" name="Default Changelist" comment="Osnovni testovi za klase dodani">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/rpr2019-t1-z4.iml" beforeDir="false" afterPath="$PROJECT_DIR$/rpr2019-t1-z4.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/KorpaTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/test/ba/unsa/etf/rpr/SupermarketTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,14 +63,16 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.KorpaTest">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.KorpaTest.dodajArtikl">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
           <option name="containerStateName" value="" />
         </value>
       </option>
-      <option name="TEST_OBJECT" value="class" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -92,7 +92,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KorpaTest.dajUkupnuCijenuArtikala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="KorpaTest.dodajArtikl" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
         <pattern>
@@ -102,23 +102,7 @@
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
-      <option name="METHOD_NAME" value="dajUkupnuCijenuArtikala" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="KorpaTest.izbaciArtiklSaKodom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="rpr2019-t1-z4" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
-      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.KorpaTest" />
-      <option name="METHOD_NAME" value="izbaciArtiklSaKodom" />
+      <option name="METHOD_NAME" value="dodajArtikl" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -140,7 +124,7 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SupermarketTest.ispisArtikala" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="SupermarketTest.izbaciArtiklSaKodom" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="rpr2019-t1-z4" />
       <extension name="coverage">
         <pattern>
@@ -150,7 +134,23 @@
       </extension>
       <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
       <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SupermarketTest" />
-      <option name="METHOD_NAME" value="ispisArtikala" />
+      <option name="METHOD_NAME" value="izbaciArtiklSaKodom" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SupermarketTest.pomjeri" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="rpr2019-t1-z4" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ba.unsa.etf.rpr.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ba.unsa.etf.rpr" />
+      <option name="MAIN_CLASS_NAME" value="ba.unsa.etf.rpr.SupermarketTest" />
+      <option name="METHOD_NAME" value="pomjeri" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -158,11 +158,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.KorpaTest" />
-        <item itemvalue="JUnit.SupermarketTest.ispisArtikala" />
+        <item itemvalue="JUnit.KorpaTest.dodajArtikl" />
+        <item itemvalue="JUnit.SupermarketTest.pomjeri" />
+        <item itemvalue="JUnit.SupermarketTest.izbaciArtiklSaKodom" />
         <item itemvalue="JUnit.SupermarketTest.dodajArtikl" />
-        <item itemvalue="JUnit.KorpaTest.izbaciArtiklSaKodom" />
-        <item itemvalue="JUnit.KorpaTest.dajUkupnuCijenuArtikala" />
+        <item itemvalue="JUnit.KorpaTest" />
       </list>
     </recent_temporary>
   </component>
@@ -176,7 +176,8 @@
       <updated>1604099679241</updated>
       <workItem from="1604099681029" duration="1246000" />
       <workItem from="1604316586286" duration="90000" />
-      <workItem from="1604595255277" duration="4868000" />
+      <workItem from="1604595255277" duration="6164000" />
+      <workItem from="1604609013829" duration="2320000" />
     </task>
     <task id="LOCAL-00001" summary="Klasa Artikl dodana">
       <created>1604099815608</created>
@@ -192,7 +193,14 @@
       <option name="project" value="LOCAL" />
       <updated>1604100517662</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Osnovni testovi za klase dodani">
+      <created>1604600804280</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1604600804280</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -213,29 +221,30 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Klasa Artikl dodana" />
     <MESSAGE value="Klase Korpa i Supermarket dodane" />
-    <option name="LAST_COMMIT_MESSAGE" value="Klase Korpa i Supermarket dodane" />
+    <MESSAGE value="Osnovni testovi za klase dodani" />
+    <option name="LAST_COMMIT_MESSAGE" value="Osnovni testovi za klase dodani" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom" timestamp="1604600628560">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom" timestamp="1604610799653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604600628560" />
-    <state width="1342" height="195" key="GridCell.Tab.0.center" timestamp="1604600628560">
+    <state width="1493" height="210" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1604610799653" />
+    <state width="1493" height="210" key="GridCell.Tab.0.center" timestamp="1604610799653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604600628560" />
-    <state width="1342" height="195" key="GridCell.Tab.0.left" timestamp="1604600628560">
+    <state width="1493" height="210" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1604610799653" />
+    <state width="1493" height="210" key="GridCell.Tab.0.left" timestamp="1604610799653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604600628560" />
-    <state width="1342" height="195" key="GridCell.Tab.0.right" timestamp="1604600628560">
+    <state width="1493" height="210" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1604610799653" />
+    <state width="1493" height="210" key="GridCell.Tab.0.right" timestamp="1604610799653">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state width="1342" height="195" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604600628560" />
-    <state x="437" y="173" key="Vcs.Push.Dialog.v2" timestamp="1604100627149">
+    <state width="1493" height="210" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1604610799653" />
+    <state x="437" y="173" key="Vcs.Push.Dialog.v2" timestamp="1604606475351">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
-    <state x="437" y="173" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604100627149" />
+    <state x="437" y="173" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1604606475351" />
     <state x="458" y="328" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1604597180030">
       <screen x="0" y="0" width="1536" height="824" />
     </state>

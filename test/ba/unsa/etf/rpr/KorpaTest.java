@@ -8,8 +8,8 @@ import static org.junit.jupiter.api.Assertions.*;
 class KorpaTest {
 
     private Korpa korpa = new Korpa();
-    private Artikl a1 = new Artikl ("Auto", 1000, "1");
-    private Artikl a2 = new Artikl ("Motor", 1500, "2");
+    private Artikl a1 = new Artikl ("Brasno", 10, "1");
+    private Artikl a2 = new Artikl ("Jaja", 15, "2");
 
     @BeforeEach
     public void setupTest() {
@@ -21,7 +21,7 @@ class KorpaTest {
     @Test
     void dajUkupnuCijenuArtikala() {
 
-        assertEquals(2500, korpa.dajUkupnuCijenuArtikala());
+        assertEquals(25, korpa.dajUkupnuCijenuArtikala());
     }
 
     @Test
@@ -32,12 +32,13 @@ class KorpaTest {
         assertEquals(kodTest, korpa.getArtikli()[0].getKod());
     }
 
-    @Test
-    void pomjeri() {
-
-    }
 
     @Test
     void dodajArtikl() {
+
+        korpa.dodajArtikl(new Artikl("Mlijeko", 11, "3"));
+        String kodTest = "3";
+        assertEquals(kodTest, korpa.getArtikli()[2].getKod());
+
     }
 }
